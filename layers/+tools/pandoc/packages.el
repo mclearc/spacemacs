@@ -21,6 +21,7 @@
     :commands spacemacs/run-pandoc
     :config
     (progn
+      (spacemacs|diminish pandoc-mode "Ⓟ")
       (defun spacemacs/run-pandoc ()
         "Start pandoc for the buffer and open the menu"
         (interactive)
